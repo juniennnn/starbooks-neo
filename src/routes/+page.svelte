@@ -4,7 +4,7 @@ let table = $state('');
 let name = $state('');
 let menu = $state('');
 
-const menus = ['탄산 아이스티', '탄산 레모네이드', '아메리카노'];
+const menus = ['탄산 아이스티', '탄산 레모네이드', '아메리카노', '카페라떼'];
 let pending = $state(false);
 
 async function submitOrder() {
