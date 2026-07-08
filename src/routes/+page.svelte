@@ -43,7 +43,7 @@ async function submitOrder() {
 </script>
 
 <main class="p-8 max-w-3xl mx-auto">
-<h1 class="text-center text-4xl font-bold mt-4 mb-1">STARBOOKS</h1> 
+<h1 class="text-center text-4xl font-bold mt-4 mb-1">BOOK 다방</h1>
 <h2 class="font-brush text-center text-4xl font-bold mt-1 mb-10">오늘의 메뉴</h2>
 
 <form onsubmit={(order) => {order.preventDefault(); submitOrder();}} class="space-y-2">
